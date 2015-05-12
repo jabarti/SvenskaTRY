@@ -1,0 +1,135 @@
+#submitLOG {
+  /*background-color: red;*/
+  /*text-align: left;*/
+  /*border-left: 2px solid #0063A3;*/
+  /*border-right: none;*/
+  /*background-image: url("Resources/img/key.png");*/
+/*  background-position: -3px center;
+  background-repeat: no-repeat;*/
+  /*padding: 0 0 0 20px;*/
+  /*border-radius: 0;*/
+/*font-size: 15px;*/
+text-align: right;
+}
+
+#imgLogButt{
+    position: relative;
+    /*background-color: red;*/
+    border-right: 1px solid #0063A3;
+    padding-right: 3px;
+    top: 2px;
+    text-align: left;
+}
+
+
+.floating_button_div{
+    
+    background: red;
+    position: fixed;
+    top: 10px;
+    /*right: 180px;*/
+    right: 15%;
+    height:24px;
+}
+
+/*.floating_button_div button{
+    position: fixed;
+    background: red;
+    top: 10px;
+    right: 15%;
+    height:24px;
+}*/
+
+div.guziki {
+position:fixed;
+top:5;
+right:5px;
+/*background: red;*/
+background: whitesmoke;
+background: #97B7B1;
+/*width:150px;*/
+width:13%;
+padding:5px;
+border:2px solid black;
+z-index: 999;
+}
+
+.myButton {
+        
+        -moz-box-shadow: 4px 3px 0px 0px #284470;
+        -webkit-box-shadow: 4px 3px 0px 0px #284470;
+        box-shadow: 4px 3px 0px 0px #284470;
+        
+        background-color:#415989;
+        /*background-color:#386A61;*/
+        
+        -moz-border-radius:18px;
+        -webkit-border-radius:18px;
+        border-radius:18px;
+        
+        border:1px solid #1f2f47;
+        
+        display:inline-block;
+        color:#ffffff;
+        font-family:arial;
+        font-size:11px;
+        font-weight:normal;
+        padding:2px 15px;
+        /*width: 110px;*/
+        width: 80%;
+        /*width: auto;*/
+        text-decoration:none;
+        
+        text-shadow:0px 3px 0px #263666;
+        
+    }
+.myButton:hover {     
+        background-color:#516ca3;
+        /*background-color:#365555;*/
+    }
+    
+.myButton:active {
+        position:relative;
+        top:1px;
+    }
+    
+.myButton2 {
+        
+        -moz-box-shadow: 4px 3px 0px 0px #284470;
+        -webkit-box-shadow: 4px 3px 0px 0px #284470;
+        box-shadow: 4px 3px 0px 0px #284470;
+        
+        background-color:#415900;
+        /*background-color:#586A67;*/
+ 
+        -moz-border-radius:18px;
+        -webkit-border-radius:18px;
+        border-radius:18px;
+        
+        border:1px solid #1f2f47;
+        
+        display:inline-block;
+        color:#ffffff;
+        font-family:arial;
+        font-size:11px;
+        font-weight:normal;
+        padding:2px 15px;
+        /*width: 110px;*/
+        width: 80%;
+        /*width: auto;*/
+        text-decoration:none;
+        
+        text-shadow:0px 3px 0px #263666;
+        
+    }
+    
+.myButton2:hover {
+        
+        background-color:#516ca3;
+        /*background-color:#555860;*/
+    }
+.myButton2:active {
+        position:relative;
+        top:1px;
+    }
+	/**/
