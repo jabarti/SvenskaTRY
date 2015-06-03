@@ -27,7 +27,7 @@ class User {
     // us: CreateUserMOD.php = TWORZENIE NOWEGO USERA   
     public function setData($imie, $nazwisko, $user, $password, $email, $publicKey, $PassCrypt){
 //    private function setData($user, $password){
-        
+//        echo "<br>SET DATA!!!";
         $t=time();
         $data = date("Y-m-d, H:i:s",$t);
         $sha_password = sha1($password);

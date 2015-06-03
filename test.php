@@ -19,6 +19,7 @@ include 'divLog.php';
 //if($_SESSION['log'] == true && isset($_COOKIE['log'])){
 if($_SESSION['log'] == true ){
 //    echo "<br>OK:".__LINE__;
+//    include 'Search.php';
     if(!isset($_SESSION['good']) && !isset($_SESSION['bad'])){
 //        echo "<br>OK:".__LINE__;
         $_SESSION['good']=0;
@@ -93,6 +94,13 @@ if($_SESSION['log'] == true ){
     $max = count($arr)-1;
 //echo "<br>MAX: ".$max;
 //$max = $Word->getLastId(false);
+    function make_seed()
+    {
+      list($usec, $sec) = explode(' ', microtime());
+      return (float) $sec + ((float) $usec * 100000);
+    }
+    mt_srand(make_seed());
+    
     $rand_index = mt_rand(0, $max); // wybór słowa
     $rand = $arr[$rand_index];
 
